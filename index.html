@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <main>
+      <h1>Añadí tu super!</h1>
+      <h3>Agregá tu personaje favorito completando las opciones.</h3>
+      <section>
+        <form action="" get="">
+          <div>
+            <label for="nombre">*Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="especie">*Especie</label>
+            <select name="especie" id="especie">
+              <option value="alien">Alien</option>
+              <option value="acuatico">Acuatico</option>
+              <option value="mutante">Mutante</option>
+            </select>
+          </div>
+          <div>
+            <label for="date">Fecha</label>
+            <input type="date" name="date" value="date">
+            <label for="file"> Agregar Foto</label>
+            <input type="file" name="pic-file" multiple accept=".jpg, .png, .svg">
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
